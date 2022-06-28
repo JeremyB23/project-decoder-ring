@@ -8,8 +8,8 @@ function substitutionRenderer() {
     const alphabet = event.target["substitution-alphabet"].value;
     const result =
       direction === "encode"
-        ? substitution(input, alphabet)
-        : substitution(input, alphabet, false);
+        ? substitutionModule.substitution(input, alphabet)
+        : substitutionModule.substitution(input, alphabet, false);
 
     const alert = document.querySelector("#substitution-alert");
     if (result) {
