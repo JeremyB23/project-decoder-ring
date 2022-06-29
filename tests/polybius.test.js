@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const { polybius } = require("../src/polybius");
 
-describe("polybius() submission tests written by Thinkful", () => {
+describe("polybius() tests written by Jeremy Buenaventura", () => {
   describe("encoding a message", () => {
     it("should encode a message by translating each letter to number pairs", () => {
       const message = "message";
