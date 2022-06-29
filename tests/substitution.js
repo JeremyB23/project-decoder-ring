@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const { substitution } = require("../src/substitution");
 
-describe("substitution() submission tests written by Jeremy Buenaventura", () => {
+describe("substitution() tests written by Jeremy Buenaventura", () => {
   describe("error handling", () => {
     it("should return false if the substitution alphabet is missing", () => {
       const message = "message";
